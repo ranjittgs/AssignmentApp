@@ -319,7 +319,7 @@
               SelectionMode="None" 
               ItemsSource="{Binding ListUsers, Mode=TwoWay}">
                 <ListView.ItemTemplate>
-                    <DataTemplate>
+                    <DataTemplate >
                         <StackPanel Orientation="Horizontal">
                             <TextBox BorderBrush="Black" Height="50" Width="100" Text="{Binding InputAmount, Mode=TwoWay}"
                                   KeyDown="TextBox_KeyDown" KeyUp="TextBox_KeyUp" TextChanged="TextBox_TextChanged_1"/>
